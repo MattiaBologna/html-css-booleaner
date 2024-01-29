@@ -1,6 +1,40 @@
-.logo {
+body{
+    text-align: center;
+}
+
+header{
     background-image: url(/img/pattern.png);
     background-color: #4EA0FF;
-    height: 250px;
-    width: 100%;
+    width: 100%; 
+}
+
+.logo{
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+img{
+    display: block;
+}
+
+#main-title{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sub-heading{
+    color: grey;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.author-link{
+    text-decoration: none;
+    color: #4EA0FF;
+}
+
+.caption{
+    text-align: left;
 }
