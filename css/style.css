@@ -43,3 +43,21 @@ th{
     color: white;
     background-color: #1FA9E5;
 }
+
+.aside-title{
+    color: gray;
+}
+
+#other-link-1{
+    color: white;
+    background-image: url(/img/monitor.jpg);
+    height: 208px;
+    width: 312px;
+}
+
+#other-link-2{
+    color: white;
+    background-image: url(/img/graph.jpg);
+    height: 207px;
+    width: 311px;
+}
