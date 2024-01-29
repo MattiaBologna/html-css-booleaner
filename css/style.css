@@ -21,7 +21,7 @@ img{
 }
 
 #main-title{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
 }
 
@@ -49,9 +49,18 @@ img{
     background-color: yellow;
 }
 
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+
 th{
     color: white;
     background-color: #1FA9E5;
+}
+
+.odd-row{
+    background-color: #B1E4F2;
 }
 
 .aside-title{
