@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    text-align: left;
 }
 
 header{
@@ -35,6 +35,11 @@ img{
     color: #4EA0FF;
 }
 
-.caption{
-    text-align: left;
+.text{
+    font-size: 25px;
+}
+
+th{
+    color: white;
+    background-color: #1FA9E5;
 }
