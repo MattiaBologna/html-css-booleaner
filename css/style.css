@@ -14,8 +14,10 @@ header{
     padding-left: 50px;
 }
 
+
 img{
     display: block;
+    margin: 8px 0px;
 }
 
 #main-title{
@@ -30,6 +32,10 @@ img{
     font-weight: 600;
 }
 
+#date{
+    font-size: 15px;
+}
+
 .author-link{
     text-decoration: none;
     color: #4EA0FF;
@@ -37,6 +43,10 @@ img{
 
 .text{
     font-size: 25px;
+}
+
+.highlighted-text{
+    background-color: yellow;
 }
 
 th{
@@ -48,16 +58,25 @@ th{
     color: gray;
 }
 
-#other-link-1{
+.other-links{
     color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+#link-1{ 
     background-image: url(/img/monitor.jpg);
     height: 208px;
     width: 312px;
 }
 
-#other-link-2{
-    color: white;
+#link-2{
     background-image: url(/img/graph.jpg);
     height: 207px;
     width: 311px;
+}
+
+main, aside{
+    margin: 0px 50px;
 }
